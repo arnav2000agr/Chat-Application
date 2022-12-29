@@ -10,6 +10,7 @@ const port = 3001;
 
 const io = new Server(server, {
   cors: {
+    allowedHeaders:"*",
     origin: "*",
     methods: ["GET", "POST"],
   },
