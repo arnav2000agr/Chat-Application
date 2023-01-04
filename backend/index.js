@@ -11,7 +11,7 @@ const port = 3001;
 const io = new Server(server, {
   cors: {
     allowedHeaders:"*",
-    origin: "http://localhost:3000",
+    origin: "https://illustrious-florentine-c6e22e.netlify.app",
     methods: ["GET", "POST"],
     credentials: true
   },
